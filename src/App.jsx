@@ -10,7 +10,7 @@ function App() {
     return (
     <div>
       <Navbar/>
-      <Button text="Make an Order!" handleClick = {handleClick}/>
+      <Button greeting="Make an Order!" handleClick = {handleClick}/>
       <h1 style= {{color: "red" }}>Tornado Motorsport</h1>
     </div>
   );

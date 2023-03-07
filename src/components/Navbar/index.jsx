@@ -1,4 +1,5 @@
 import "./navbar.css"
+import { BsFillCartFill } from 'react-icons/bs';
 
 const Navbar = () => {
   return (
@@ -8,6 +9,10 @@ const Navbar = () => {
         <p>Contact</p>
         <p>Our Clients</p>
         <p>About Us</p>
+        <div>
+        <BsFillCartFill />
+        <p>4</p>
+        </div>
     </nav>
   );
 };
